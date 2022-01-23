@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sveltekit
+    name: solid-start
     env: node
     buildCommand: npm install && npm run build
-    startCommand: node build/index.js
+    startCommand: node dist/index.js
