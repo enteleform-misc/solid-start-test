@@ -2,5 +2,5 @@ services:
   - type: web
     name: solid-start
     env: node
-    buildCommand: npm install && npm run build
-    startCommand: node dist/index.js
+    buildCommand: yarn; yarn build
+    startCommand: yarn start
